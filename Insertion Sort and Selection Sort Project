@@ -1,0 +1,24 @@
+                                                        INSERTION SORT and SELECTION SORT PROJECT
+-----------------------------o-----------------------------o-----------------------------o-----------------------------o-----------------------------o-------------------
+
+[22, 27, 16, 2, 18, 6] dizisini "insertion sort" sıralama algoritmasına göre aşamalarını yazınız.
+
+1-) [2, 27, 16, 22, 18, 6]
+2-) [2, 6, 16, 22, 18, 27]
+3-) [2, 6, 16, 22, 18, 27]
+3-) [2, 6, 16, 18, 22, 27]
+
+Uygulamış olduğumuz işlemlerin bize en kötü durumda maliyetinin gösterimi: Big-O --> O(n^2)
+18 sayısı dizinin ortasında konumlandığından "average case" durumuna girer.
+
+-----------------------------o-----------------------------o-----------------------------o-----------------------------o-----------------------------o-------------------
+
+[7, 3, 5, 8, 2, 9, 4, 15, 6] dizisinin "selection sort" sıralama algoritmasına göre ilk 4 adımını yazınız.
+
+1-) [2, 3, 5, 8, 7, 9, 4, 15, 6] --> En küçük sayımız 2 ile 7 yer değiştiriyor.
+2-) [2, 3, 5, 8, 7, 9, 4, 15, 6] --> 2. en küçük sayımız zaten sıralı olduğundan herhangi bir değişim işlemi yapılmıyor.
+3-) [2, 3, 4, 8, 7, 9, 5, 15, 6] --> 3. en küçük olan sayımız 4 ile 5 yer değiştiriyor.
+4-) [2, 3, 4, 5, 7, 9, 8, 15, 6] --> 4. en küçük olan sayımız 5 ile 8 yer değiştiriyor.
+
+Böylece "selection sort" algoritmasını uygulayarak ilk 4 adımı gerçekleştirmiş oluyoruz.
+
